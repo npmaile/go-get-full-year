@@ -47,7 +47,7 @@ func (y *yearProvider) GetYearEnterprise() (YearAPIReturnEnterprise, error) {
 }
 
 func (y *yearProvider) GetYearBasic() (YearAPIReturnFull, error) {
-	if !y.enterprise {
+	if y.enterprise {
 		panic("basic get year called, but enterprise was passed to the constructor. Exiting now")
 	}
 
