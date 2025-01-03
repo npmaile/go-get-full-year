@@ -25,6 +25,13 @@ func main(){
 	fmt.Printf("year: %d\n", year.Year)
 }
 ```
+which will give you the following output
+```shell
+$ go run main.go
+this api return brought to you by our sponsor:
+Starbucks: coffee make brain go zoom
+year: 2025
+```
 
 ## installation
 
