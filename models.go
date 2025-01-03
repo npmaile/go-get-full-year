@@ -1,4 +1,4 @@
-package main
+package gogetfullyear
 
 type YearAPIReturnFull struct {
 	YearAPIReturnEnterprise

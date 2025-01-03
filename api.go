@@ -1,4 +1,4 @@
-package main
+package gogetfullyear
 
 import (
 	"encoding/json"
